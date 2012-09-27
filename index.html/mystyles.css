@@ -1,0 +1,21 @@
+/* my personal style sheet */
+
+
+/* import of bootstrap*/
+@import url(assets/css/bootstrap.css);
+
+/*my own custom styles*/
+.hero-unit{
+	background-image:url(assets/img/ski3.jpg);
+	color: #000000
+}
+.row
+{
+	color: #000000
+}
+table
+{color: #000000}
+h2{
+	color: #000000
+}
+

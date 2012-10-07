@@ -32,7 +32,7 @@
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -43,24 +43,23 @@
           <a class="brand" href="#" title="Oval Ski Club">Oval Ski Club</a> <!--site name-->
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="index.html" title="Home"><i class="icon-home icon-white"></i> Home</a></li>
+              <li class="active"><a href="index.html" title="Home" accesskey="h"> Home</a></li>
               <!--<li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>!-->
               <li class="dropdown"> <!-- first drop down box-->
                 <a href="#"  title="Information"class="dropdown-toggle" data-toggle="dropdown">Information <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="AboutUs.html" title="About Us">About Us</a></li>
-                  <li><a href="ContactUs.html"title="Contac Us">Contact Us</a></li>
-                  <li><a href="FAQ.html"title="Frequently Asked Questions">FAQ's</a></li>
+                  <li><a href="AboutUs.html" title="About Us" accesskey="a">About Us</a></li>
+                  <li><a href="ContactUs.html"title="Contac Us" accesskey="c">Contact Us</a></li>
+                  <li><a href="FAQ.html"title="Frequently Asked Questions" "f">FAQ's</a></li>
                 </ul>
               </li>
                <li class="dropdown"> <!-- second drop down box-->
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="Social.html"title="Social Events">Social</a></li>
-                  <li><a href="RacingTeam.html"title="Racing Team">Racing Team</a></li>
-                  <li><a href="Sessions.html"title="Sessions">Sessions</a></li>
-                  <li><a href="Holiday.html"title="Holidays">Holiday</a></li>
+                  <li><a href="Social.html"title="Social Events" accesskey="s">Social</a></li>
+                  <li><a href="RacingTeam.html"title="Racing Team" accesskey="r">Racing Team</a></li>
+                  <li><a href="Sessions.html"title="Lessons" accesskey="l">Lessons</a></li>
                 </ul>
               </li>
             </ul> <!-- drop down sign in-->
@@ -88,6 +87,9 @@
       <div class="hero-unit">
         <h1>Oval Ski Club!</h1>
         <h2>Contact Us!</h2>
+        <br>
+        <br>    <!--spacing for hero unit-->
+        <br>
       </div>
 
       <!-- Example row of columns -->
@@ -126,18 +128,22 @@
     </div>
 
     <div class="row">
-      <div class="pagination-centered">
+      <div class="pagination-centered" style="border-top: 5px solid #205090;">
         <h2> Find Us </h2>
         <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=oval+sports+center&amp;aq=&amp;sll=52.9718,-2.779541&amp;sspn=1.875643,5.410767&amp;t=h&amp;ie=UTF8&amp;hq=oval+sports+center&amp;hnear=&amp;ll=53.357621,-3.011541&amp;spn=0.012294,0.027466&amp;z=15&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.uk/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=oval+sports+center&amp;aq=&amp;sll=52.9718,-2.779541&amp;sspn=1.875643,5.410767&amp;t=h&amp;ie=UTF8&amp;hq=oval+sports+center&amp;hnear=&amp;ll=53.357621,-3.011541&amp;spn=0.012294,0.027466&amp;z=15" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
 
-      <div class="span1"> <!-- facebook link-->
-      <div class="brand">  <a href="https://www.facebook.com/groups/2256597544/"><img src="assets/img/fbbutton.jpg" class="brand"></a></div>
-</div>
-      <hr>
+      
 
       <footer>
+      <div class="span1"> <!-- facebook link-->
+      <div class="brand">  <a href="https://www.facebook.com/groups/2256597544/"><img src="assets/img/fbbutton.jpg" class="brand"></a></div>
+    </div>
+      <hr>
+
+       <div class="pagination-centered">
         <p>&copy; Oval Ski Club 2012</p>
+      </div>
       </footer>
 
     </div> <!-- /container -->
@@ -168,19 +174,9 @@
         e.stopPropagation();
       });
   });
-    function adjustScrollForNavbar
-function adjustScrollForNavbar() {
-  var $nav = $('div.navbar')
-  if ( $nav.css('position') !== "fixed" ) return
-  window.scrollBy(0, -$nav.height())
-}
 
-// Adjust for fixed navbar
-$('body').on('click.scroll-adjust', '[href^="#"]', function (e) {
-  if ( e && e.isDefaultPrevented() ) return
-  $(window).one('scroll', adjustScrollForNavbar )
-});
 </script>
 
   </body>
 </html>
+

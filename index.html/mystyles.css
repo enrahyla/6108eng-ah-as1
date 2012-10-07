@@ -5,17 +5,31 @@
 @import url(assets/css/bootstrap.css);
 
 /*my own custom styles*/
-.hero-unit{
-	background-image:url(assets/img/ski3.jpg);
+
+body
+{
+	background-image:url(assets/img/gplaypattern.png);
+}
+
+.hero-unit
+{
+	background-image:url(assets/img/heroimage2.jpg);
 	color: #000000
 }
+
 .row
 {
 	color: #000000
 }
+
 table
-{color: #000000}
-h2{
+{
 	color: #000000
 }
+
+h2
+{
+	color: #000000
+}
+
 

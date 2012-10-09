@@ -43,11 +43,11 @@
           <a class="brand" href="#" title="Oval Ski Club">Oval Ski Club</a> <!--site name-->
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="index.html" title="Home" accesskey="h"> Home</a></li>
+              <li><a href="index.html" title="Home" accesskey="h"> Home</a></li>
               <!--<li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>!-->
               <li class="dropdown"> <!-- first drop down box-->
-                <a href="#"  title="Information"class="dropdown-toggle" data-toggle="dropdown">Information <b class="caret"></b></a>
+                <a href="#"  title="Information"class="dropdown-toggle" data-toggle="dropdown" title="Information">Information <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="AboutUs.html" title="About Us" accesskey="a">About Us</a></li>
                   <li><a href="ContactUs.html"title="Contac Us" accesskey="c">Contact Us</a></li>
@@ -55,41 +55,44 @@
                 </ul>
               </li>
                <li class="dropdown"> <!-- second drop down box-->
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Events">Events <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="Social.html"title="Social Events" accesskey="s">Social</a></li>
                   <li><a href="RacingTeam.html"title="Racing Team" accesskey="r">Racing Team</a></li>
-                  <li><a href="Sessions.html"title="Lessons" accesskey="l">Lessons</a></li>
+                  <li class="active"><a href="Sessions.html"title="Lessons" accesskey="l">Lessons</a></li>
                 </ul>
               </li>
             </ul> 
 
+         
             <!-- drop down sign in-->
           <ul class="nav pull-right">
           <li class="divider-vertical"></li>
           <li class="dropdown">
-            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Sign In <strong class="caret"></strong></a>
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" title="Sign In">Sign In <strong class="caret"></strong></a>
 
             <div class="dropdown-menu" style="padding: 15px; padding-bottom: 10px;">
 
               <!-- Login form here -->
-            </formaction="[YOUR ACTION]" method="post" accept-charset="UTF-8">
-            <input id="user_username" style="margin-bottom: 15px;" type="text" placeholder ="Username" name="user[username]" size="30" title="Username"/>
+            <form action="index.html">
 
-            <input id="user_password" style="margin-bottom: 15px;" type="password" placeholder="Password" name="user[password]" size="30" title="Password"/>
+              <!--Username-->
+            <input style="margin-bottom: 15px;" type="text" placeholder="Username" size="30" title="Userame"/> 
 
-            <input class= "btn btn-primary" href="SignIn.html" style="clear: left; width: 100%; height: 32px; font-size: 13px;" type="submit" name="commit" value="Sign In" title="Sign In" />
+            <!--Password-->
+            <input style="margin-bottom: 15px;" type="password" placeholder="Password" name="user[password]" size="30" title="Password"/>
+
+            <!--Sign in button-->
+            <button <input class= "btn btn-primary"  name="commit" value="Sign In" title="Sign In">Sign In</button>
           </form>
-
           </div>
         </div><!--/.nav-collapse -->
       </div>
     </div>
   </div>
-
     <div class="container">
 
-      <!-- Main hero unit for a primary marketing message or call to action -->
+      <!-- Main hero unit -->
       <div class="hero-unit">
         <h1>Oval Ski Club!</h1>
         <h2>Want to Learn to Ski?</h2>
@@ -100,7 +103,7 @@
 
        <div class="container"><!--start of container-->
        <div class="row">
-       <div class="span7" style="border-top: 5px solid #205090;">
+       <div class="span8" style="border-top: 5px solid #205090;">
        <h2>Lessons</h2>
        <p>Oval Ski club holds lessons for juniors and adults, our lessons cover the full spetrum of ability.</p>
        <p>Everyone is welcome to join the club from first timers to full seasoned pros. If you are joining as a beginner then see the start dates of our beginner lessons in our diary to the right of the page</p>
@@ -128,27 +131,14 @@
       <ul>
         <li>5 - 6PM Beginners lessons</li>
         <li>6 - 7PM Open skiing sessions</li>
-        <li>7 - 8PM Improvement/Advanced lessons. This is for people who can snowplough turn.</li>
+        <li>7 - 8PM Improvement/Advanced lessons. This is for people who can snowplough turn.</li><br>
       </ul>
     </div>
 
-    <div class="span4" style="border-top: 5px solid #205090;">
+
+    <!--diary start-->
+    <div class="span4" style="max-height:700px; overflow-y:scroll;   border-top: 5px solid #205090;">
       <h3>Dates for the diary</h3>
-      <i class="icon-calendar"></i>
-      <strong>Sunday 07/10/12</strong>
-      <p>5.00pm - 6.00PM
-        <br>
-        Adult Club - Beginners lessons (week 3 of 3)
-        <br>
-        <br>
-        6.00PM - 7.00PM
-        <br>
-        Adult Club - Open skiing session + improver lessons.
-        <br>
-        <br>
-        7.00PM - 8.00PM
-        Adult Club - Intermediate/advanced lessons.</p>
-        <br>
 
         <i class="icon-calendar"></i>
         <strong>Saturday 13/10/12</strong>
@@ -180,7 +170,7 @@
             <br>
 
             <i class="icon-calendar"></i>
-            <strong>Sunday 20/10/12</strong>
+            <strong>Saturday 20/10/12</strong>
             <p>10.00AM - 11.00AM
               <br>
               Junior club for under 11's including the under 5's taster sessions
@@ -190,6 +180,243 @@
               <br>
               Junior club for 11+</p>
               <br>
+
+            <i class="icon-calendar"></i>
+            <strong>Sunday 21/10/12</strong>
+            <p>10.00AM - 11.00AM
+              <br>
+              Junior club for under 11's including the under 5's taster sessions
+              <br>
+              <br>
+              11.30AM - 1.00PM
+              <br>
+              Junior club for 11+</p>
+              <br>
+
+              <i class="icon-calendar"></i>
+            <strong>Saturday 27/10/12</strong>
+            <p>10.00AM - 11.00AM
+              <br>
+              Junior club for under 11's.
+              <br>
+              <br>
+              11.30AM - 1.00PM
+              <br>
+              Junior club for 11+</p>
+              <br>
+
+            <i class="icon-calendar"></i>
+            <strong>Sunday 28/10/12</strong>
+            <p>5.00PM - 6.00PM
+              <br>
+              Adult club - beginners lessons(week 3 of 3) 
+              <br>
+              <br>
+              6.00PM - 7.00PM
+              <br>
+              Adult club - open skiing session + improver lessons
+              <br>
+              <br>
+              7.00PM - 8.00PM
+              <br>
+              Adult club - intermediate/advanced lessons</p>
+              <br>
+
+            <i class="icon-calendar"></i>
+            <strong>Saturday 03/11/12</strong>
+            <p>10.00AM - 11.00AM
+              <br>
+              Junior club for under 11's. New beginners start.
+              <br>
+              <br>
+              11.30AM - 1.00PM
+              <br>
+              Junior club for 11+. New beginners start.</p>
+
+            <i class="icon-calendar"></i>
+            <strong>Sunday 04/11/12</strong>
+            <p>5.00PM - 6.00PM
+              <br>
+              Adult Club - Beginners lessons week 1 of 3.
+              <br>
+              <br>
+              6.00PM - 7.00PM
+              <br>
+              Adult club - Open skiing sessions + improver lessons
+              <br>
+              <br>
+              7.00PM - 8.00PM
+              Adult Club - Intermediate/Advanced lessons</p>
+              <br>
+
+            <i class="icon-calendar"></i>
+            <strong>Saturday 10/11/12</strong>
+            <p>10.00AM - 11.00AM
+              <br>
+              Junior club for under 11's.
+              <br>
+              <br>
+              11.30AM - 1.00PM
+              <br>
+              Junior club for 11+</p>
+              <br>
+
+
+            <i class="icon-calendar"></i>
+            <strong>Sunday 11/11/12</strong>
+            <p>5.00PM - 6.00PM
+              <br>
+              Adult Club - Beginners lessons week 2 of 3.
+              <br>
+              <br>
+              6.00PM - 7.00PM
+              <br>
+              Adult club - Open skiing sessions + improver lessons
+              <br>
+              <br>
+              7.00PM - 8.00PM
+              Adult Club - Intermediate/Advanced lessons</p>
+              <br>
+
+            <i class="icon-calendar"></i>
+            <strong>Saturday 17/11/12</strong>
+            <p>10.00AM - 11.00AM
+              <br>
+              Junior club for under 11's.
+              <br>
+              <br>
+              11.30AM - 1.00PM
+              <br>
+              Junior club for 11+</p>
+              <br>
+
+            <i class="icon-calendar"></i>
+            <strong>Sunday 18/11/12</strong>
+            <p>****Yellow Duckmarine****
+              <br>
+              11.30AM
+              <br>
+              Albert Dock. See Events page for more details.
+              <br>
+              5.00PM - 6.00PM
+              <br>
+              Adult Club - Beginners lessons week 3 of 3.
+              <br>
+              <br>
+              6.00PM - 7.00PM
+              <br>
+              Adult club - Open skiing sessions + improver lessons
+              <br>
+              <br>
+              7.00PM - 8.00PM
+              Adult Club - Intermediate/Advanced lessons</p>
+              <br>
+
+
+            <i class="icon-calendar"></i>
+            <strong>Saturday 24/11/12</strong>
+            <p>10.00AM - 11.00AM
+              <br>
+              Junior club for under 11's. New beginners start.
+              <br>
+              <br>
+              11.30AM - 1.00PM
+              <br>
+              Junior club for 11+. New beginners start.</p>
+              <br>
+
+            <i class="icon-calendar"></i>
+            <strong>Sunday 25/11/12</strong>
+            <p>5.00PM - 6.00PM
+              <br>
+              Adult Club - Beginners lessons week 1 of 4.
+              <br>
+              <br>
+              6.00PM - 7.00PM
+              <br>
+              Adult club - Open skiing sessions + improver lessons
+              <br>
+              <br>
+              7.00PM - 8.00PM
+              Adult Club - Intermediate/Advanced lessons</p>
+              <br>
+
+            <i class="icon-calendar"></i>
+            <strong>Saturday 01/12/12</strong>
+            <p>10.00AM - 11.00AM
+              <br>
+              Junior club for under 11's.
+              <br>
+              <br>
+              11.30AM - 1.00PM
+              <br>
+              Junior club for 11+</p>
+              <br>
+
+            <i class="icon-calendar"></i>
+            <strong>Sunday 02/12/12</strong>
+            <p>5.00PM - 6.00PM
+              <br>
+              Adult Club - Beginners lessons week 2 of 4.
+              <br>
+              <br>
+              6.00PM - 7.00PM
+              <br>
+              Adult club - Open skiing sessions + improver lessons
+              <br>
+              <br>
+              7.00PM - 8.00PM
+              Adult Club - Intermediate/Advanced lessons</p>
+              <br>
+
+            <i class="icon-calendar"></i>
+            <strong>Saturday 08/12/12</strong>
+            <p>10.00AM - 11.00AM
+              <br>
+              Junior club for under 11's.
+              <br>
+              <br>
+              11.30AM - 1.00PM
+              <br>
+              Junior club for 11+</p>
+              <br>
+
+
+            <i class="icon-calendar"></i>
+            <strong>Sunday 09/12/12</strong>
+            <p>5.00PM - 6.00PM
+              <br>
+              Adult Club - Beginners lessons week 3 of 4.
+              <br>
+              <br>
+              6.00PM - 7.00PM
+              <br>
+              Adult club - Open skiing sessions + improver lessons
+              <br>
+              <br>
+              7.00PM - 8.00PM
+              Adult Club - Intermediate/Advanced lessons</p>
+              <br>
+
+            <i class="icon-calendar"></i>
+            <strong>Wednesday 23/01/13</strong>
+            <p>5.00pm - 8.00pm
+              <br>
+              ****Getting Nailed****
+              <br>
+              Caroline and Co beauty consultants. See Events page for more details.</p>s
+              <br>
+
+            <i class="icon-calendar"></i>
+            <strong>Friday 26/04/12</strong>
+            <br>
+            7.00PM - 10.30PM
+            <br>
+            ****Brewery Tour****
+            <br>
+            Peerles Brewery Tour. See events page for more details.
+            <br>
+
               <p class ="text-info">*Please check back regularly for more dates</p>
             </div>
           </div><!-- end of container-->
@@ -201,13 +428,15 @@
                 <iframe width="560" height="315" src="http://www.youtube.com/embed/yOveLBduJKk?rel=0" frameborder="0" allowfullscreen></iframe>
               </div>
             </div>
-          </div>
+
+        
+          
 
 
       <footer>
 
       <div class="span1"> <!-- facebook link-->
-      <div class="brand">  <a href="https://www.facebook.com/groups/2256597544/"><img src="assets/img/fbbutton.jpg" class="brand"></a></div>
+      <div class="brand">  <a href="https://www.facebook.com/groups/2256597544/" title="Facebok Page"><img src="assets/img/fbbutton.jpg" class="brand"></a></div>
       </div>
       <hr>
 

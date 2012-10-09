@@ -43,43 +43,49 @@
           <a class="brand" href="#" title="Oval Ski Club">Oval Ski Club</a> <!--site name-->
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="index.html" title="Home" accesskey="h"> Home</a></li>
+              <li><a href="index.html" title="Home" accesskey="h"> Home</a></li>
               <!--<li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>!-->
               <li class="dropdown"> <!-- first drop down box-->
                 <a href="#"  title="Information"class="dropdown-toggle" data-toggle="dropdown">Information <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="AboutUs.html" title="About Us" accesskey="a">About Us</a></li>
-                  <li><a href="ContactUs.html"title="Contac Us" accesskey="c">Contact Us</a></li>
+                  <li class="active"><a href="ContactUs.html"title="Contac Us" accesskey="c">Contact Us</a></li>
                   <li><a href="FAQ.html"title="Frequently Asked Questions" "f">FAQ's</a></li>
                 </ul>
               </li>
                <li class="dropdown"> <!-- second drop down box-->
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Events">Events <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="Social.html"title="Social Events" accesskey="s">Social</a></li>
                   <li><a href="RacingTeam.html"title="Racing Team" accesskey="r">Racing Team</a></li>
                   <li><a href="Sessions.html"title="Lessons" accesskey="l">Lessons</a></li>
                 </ul>
               </li>
-            </ul> <!-- drop down sign in-->
-                <ul class="nav pull-right">
+            </ul> 
+   
+            <!-- drop down sign in-->
+          <ul class="nav pull-right">
           <li class="divider-vertical"></li>
           <li class="dropdown">
-            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Sign In <strong class="caret"></strong></a>
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" title="Sign In">Sign In <strong class="caret"></strong></a>
+
             <div class="dropdown-menu" style="padding: 15px; padding-bottom: 10px;">
+
               <!-- Login form here -->
-            </formaction="[YOUR ACTION]" method="post" accept-charset="UTF-8">
-            <input id="user_username" style="margin-bottom: 15px;" type="text" placeholder ="Username" name="user[username]" size="30" title="Username"/>
-            <input id="user_password" style="margin-bottom: 15px;" type="password" placeholder="Password" name="user[password]" size="30" title="Password"/>
-            </label>
-            <input class="btn btn-primary" style="clear: left; width: 100%; height: 32px; font-size: 13px;" type="submit" name="commit" value="Sign In" title="Sign In" />
+            <form action="index.html">
+              <!--Username-->
+            <input style="margin-bottom: 15px;" type="text" placeholder="Username" size="30" title="Userame"/> 
+            <!--Password-->
+            <input style="margin-bottom: 15px;" type="password" placeholder="Password" name="user[password]" size="30" title="Password"/>
+
+            <button <input class= "btn btn-primary"  name="commit" value="Sign In" title="Sign In">Sign In</button>
           </form>
-        </div>
-          </div><!--/.nav-collapse -->
-        </div>
+          </div>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
+  </div>
 
     <div class="container">
 
@@ -100,7 +106,7 @@
           <p>You can contact us by email via: </p>
             <address>
               <strong>Skiing Enquiries</strong><br>
-              <a href="mailto:SkiEnquiries@OvalSkiClub.com">SkiEnquiries@OvalSkiClub.com </a>
+              <a href="mailto:SkiEnquiries@OvalSkiClub.com" title="E-Mail: SkiEnquiries@OvalSkiClub.com">SkiEnquiries@OvalSkiClub.com </a>
             </blockquote>
               </address>
           </div>
@@ -111,6 +117,46 @@
            <li>John Wahlers (Chairman): 0151 645 2452</li>
            <li>Belinda Dawson (secretary): 0151 342 9756</li>
            <li>Tony McClave (Race Secretary): T.B.C</li></ul>
+           <br>
+           <br>
+           <!--modal-->
+           <p>Leave us a message</p>
+           <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledyby="myModalLabel" aria-hidden="true" style="display: none; ">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true" title="close">x</button>
+              <h3 id="myModalLabel">Conact Form</h3>
+            </div>
+
+            <div class="modal-body">
+              <h4>Contact Us</h4>
+              <p>Fill in the contact form to contact us</p>
+               <input style="margin-bottom: 15px;" type="text" placeholder="Forename" size="30" title="Forename"/>
+               <input style="margin-bottom: 15px;" type="text" placeholder="Surname" size="30" title="Surname"/>
+               <br>
+               <input style="margin-bottom: 15px;" type="text" placeholder="E-Mail Address" size="30" title="E-mail Address"/>
+               <input style="margin-bottom: 15px;" type="text" placeholder="Contact Number" size="30" title="Contact Number"/>
+               <br>
+                <form method="post" action="">
+                <textarea name="comments" cols="10" rows="10" class="span4">
+                Enter your comments here...
+                </textarea><br>
+                <input type="submit" value="Submit" />
+                </form>
+                </div>
+
+            <div class="modal-footer">
+              <button class="btn" data-dismiss="modal" title="Close">Close</button>
+              <button class="btn btn-primary" data-dismiss="modal" title="Submit">Submit</button>
+            </div>
+          </div>
+
+          <!--contact form button bring up modal-->
+           <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-large" title="Contact Form">Contcact Form</a>
+           <br>
+           <br>
+           <br>
+
+
         </div>
         <div class="span4 pagination-centered">
           <blockquote class="pull-right">
@@ -124,9 +170,10 @@
             CH63 7LF<br>
           </blockquote>
           </address>
+          <br>
+        </div>
       </div>
-    </div>
-
+      
     <div class="row">
       <div class="pagination-centered" style="border-top: 5px solid #205090;">
         <h2> Find Us </h2>
@@ -137,7 +184,7 @@
 
       <footer>
       <div class="span1"> <!-- facebook link-->
-      <div class="brand">  <a href="https://www.facebook.com/groups/2256597544/"><img src="assets/img/fbbutton.jpg" class="brand"></a></div>
+      <div class="brand">  <a href="https://www.facebook.com/groups/2256597544/" title="Facebook Page"><img src="assets/img/fbbutton.jpg" class="brand"></a></div>
     </div>
       <hr>
 

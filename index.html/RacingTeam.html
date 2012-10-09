@@ -43,11 +43,11 @@
           <a class="brand" href="#" title="Oval Ski Club">Oval Ski Club</a> <!--site name-->
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="index.html" title="Home" accesskey="h"> Home</a></li>
+              <li><a href="index.html" title="Home" accesskey="h"> Home</a></li>
               <!--<li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>!-->
               <li class="dropdown"> <!-- first drop down box-->
-                <a href="#"  title="Information"class="dropdown-toggle" data-toggle="dropdown">Information <b class="caret"></b></a>
+                <a href="#"  title="Information"class="dropdown-toggle" data-toggle="dropdown" title="Information">Information <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="AboutUs.html" title="About Us" accesskey="a">About Us</a></li>
                   <li><a href="ContactUs.html"title="Contac Us" accesskey="c">Contact Us</a></li>
@@ -55,31 +55,41 @@
                 </ul>
               </li>
                <li class="dropdown"> <!-- second drop down box-->
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Events">Events <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="Social.html"title="Social Events" accesskey="s">Social</a></li>
-                  <li><a href="RacingTeam.html"title="Racing Team" accesskey="r">Racing Team</a></li>
+                  <li class="active"><a href="RacingTeam.html"title="Racing Team" accesskey="r">Racing Team</a></li>
                   <li><a href="Sessions.html"title="Lessons" accesskey="l">Lessons</a></li>
                 </ul>
               </li>
-            </ul> <!-- drop down sign in-->
-                <ul class="nav pull-right">
+            </ul> 
+
+
+            <!-- drop down sign in-->
+          <ul class="nav pull-right">
           <li class="divider-vertical"></li>
           <li class="dropdown">
-            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Sign In <strong class="caret"></strong></a>
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" title="Sign In">Sign In <strong class="caret"></strong></a>
+
             <div class="dropdown-menu" style="padding: 15px; padding-bottom: 10px;">
+
               <!-- Login form here -->
-            </formaction="[YOUR ACTION]" method="post" accept-charset="UTF-8">
-            <input id="user_username" style="margin-bottom: 15px;" type="text" placeholder ="Username" name="user[username]" size="30" title="Username"/>
-            <input id="user_password" style="margin-bottom: 15px;" type="password" placeholder="Password" name="user[password]" size="30" title="Password"/>
-            </label>
-            <input class="btn btn-primary" style="clear: left; width: 100%; height: 32px; font-size: 13px;" type="submit" name="commit" value="Sign In" title="Sign In" />
+            <form action="index.html">
+
+              <!--Username-->
+            <input style="margin-bottom: 15px;" type="text" placeholder="Username" size="30" title="Userame"/> 
+            
+            <!--Password-->
+            <input style="margin-bottom: 15px;" type="password" placeholder="Password" name="user[password]" size="30" title="Password"/>
+
+            <!--Sign in Button-->
+            <button <input class= "btn btn-primary"  name="commit" value="Sign In" title="Sign In">Sign In</button>
           </form>
-        </div>
-          </div><!--/.nav-collapse -->
-        </div>
+          </div>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
+  </div>
 
     <div class="container">
 
@@ -106,7 +116,7 @@
         <br>
         <br>
         <div class="span4">
-          <img src="assets/img/skirace.jpg" alt height="500px" width="500px" alt text="Anna Skiing in a race">
+          <img src="assets/img/skirace.jpg" alt height="500px" width="500px" title="Anna Skiing in a race">
        </div>
     </div>
 
@@ -128,9 +138,9 @@
         <br>
         <p>Online entry is available for the races this year and this is the preferred method so please esnure that it is done this way. It is possible to sign up for one race at a time or all 5 races in one go. Payment can be done via paypal or credit/debit card. The races can be signed up for by selecting the link below:</p>
         <br>
-        <a href="http://form.jotform.com/form/12565537275">Online Entry Form</a>
+        <a href="http://form.jotform.com/form/12565537275" title="Online Enrty Form">Online Entry Form</a>
         <br>
-        <a href="http://www.sharks.org.uk/frostbite.pdf">Rules and Terms and condiitons</a>
+        <a href="http://www.sharks.org.uk/frostbite.pdf" title="Rules and Terms and conditions">Rules and Terms and condiitons</a>
         <br>
 
         <h2>Pendle winter race league</h2>
@@ -148,7 +158,7 @@
 
         <p>Please read the race details below, if you are interested in racing then this race can be entered by emailing:</p>
         <address>
-          <a href="mailto:pendleskiraces@live.co.uk">pendleskiraces@live.co.uk</a>
+          <a href="mailto:pendleskiraces@live.co.uk" title="Email: pendleskiraces@live.co.uk">pendleskiraces@live.co.uk</a>
         </address>
 
 
@@ -206,7 +216,7 @@
       
       <footer>
         <div class="span1"> <!-- facebook link-->
-        <div class="brand">  <a href="https://www.facebook.com/groups/2256597544/"><img src="assets/img/fbbutton.jpg" class="brand"></a>
+        <div class="brand">  <a href="https://www.facebook.com/groups/2256597544/" title="Facebook Page"><img src="assets/img/fbbutton.jpg" class="brand"></a>
       </div>
     </div>
      <div class="pagination-centered">

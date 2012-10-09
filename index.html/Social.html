@@ -41,45 +41,60 @@
             <span class="icon-bar"></span>
           </a>
           <a class="brand" href="#" title="Oval Ski Club">Oval Ski Club</a> <!--site name-->
+
           <div class="nav-collapse collapse">
             <ul class="nav">
+
+              <!--Home Page-->
               <li class="active"><a href="index.html" title="Home" accesskey="h"> Home</a></li>
-              <!--<li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>!-->
-              <li class="dropdown"> <!-- first drop down box-->
-                <a href="#"  title="Information"class="dropdown-toggle" data-toggle="dropdown">Information <b class="caret"></b></a>
+
+              <!-- first drop down box-->
+              <li class="dropdown"> 
+                <a href="#"  title="Information"class="dropdown-toggle" data-toggle="dropdown" title="Information">Information <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="AboutUs.html" title="About Us" accesskey="a">About Us</a></li>
                   <li><a href="ContactUs.html"title="Contac Us" accesskey="c">Contact Us</a></li>
                   <li><a href="FAQ.html"title="Frequently Asked Questions" accesskey="f">FAQ's</a></li>
                 </ul>
               </li>
-               <li class="dropdown"> <!-- second drop down box-->
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+
+              <!-- second drop down box-->
+               <li class="dropdown"> 
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Events">Events <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="Social.html"title="Social Events" accesskey="s">Social</a></li>
+                  <li class="active"><a href="Social.html"title="Social Events" accesskey="s">Social</a></li>
                   <li><a href="RacingTeam.html"title="Racing Team" accesskey="r">Racing Team</a></li>
                   <li><a href="Sessions.html"title="Lessons" accesskey="l">Lessons</a></li>
                 </ul>
               </li>
-            </ul> <!-- drop down sign in-->
-                <ul class="nav pull-right">
+            </ul>
+
+
+            <!-- drop down sign in-->
+          <ul class="nav pull-right">
           <li class="divider-vertical"></li>
           <li class="dropdown">
-            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Sign In <strong class="caret"></strong></a>
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" title="Sign In">Sign In <strong class="caret"></strong></a>
+
             <div class="dropdown-menu" style="padding: 15px; padding-bottom: 10px;">
+
               <!-- Login form here -->
-            </formaction="[YOUR ACTION]" method="post" accept-charset="UTF-8">
-            <input id="user_username" style="margin-bottom: 15px;" type="text" placeholder ="Username" name="user[username]" size="30" title="Username"/>
-            <input id="user_password" style="margin-bottom: 15px;" type="password" placeholder="Password" name="user[password]" size="30" title="Password"/>
-            </label>
-            <input class="btn btn-primary" style="clear: left; width: 100%; height: 32px; font-size: 13px;" type="submit" name="commit" value="Sign In" title="Sign In" />
+            <form action="index.html">
+              
+              <!--Username-->
+            <input style="margin-bottom: 15px;" type="text" placeholder="Username" size="30" title="Userame"/> 
+
+            <!--Password-->
+            <input style="margin-bottom: 15px;" type="password" placeholder="Password" name="user[password]" size="30" title="Password"/>
+
+            <!--Sign in button-->
+            <button <input class= "btn btn-primary"  name="commit" value="Sign In" title="Sign In">Sign In</button>
           </form>
-        </div>
-          </div><!--/.nav-collapse -->
-        </div>
+          </div>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
+  </div>
 
 
       <!--start of carousel-->
@@ -197,7 +212,7 @@
             The clubs social secretary can also be contacted via:</p>
             <address>
             <strong>Email</strong><br>
-              <a href="mailto:jane.croft1@ntlworld.com">jane.croft1@ntlworld.com </a> <!--email address-->
+              <a href="mailto:jane.croft1@ntlworld.com" title="Email: jane.croft1@ntlworld.com">jane.croft1@ntlworld.com </a> <!--email address-->
               </address>
               <h5>Phone</h5>
               <ul class="unstyled">
@@ -211,7 +226,7 @@
           <div class="container">
           <div class="row">
           <div class="span2">
-          <img src="assets/img/hilbreisland.jpg" alt height="200px" width="200px">
+          <img src="assets/img/hilbreisland.jpg" alt height="200px" width="200px" title="Hilbre Island">
     </div>
 
         <div class="span7">
@@ -241,10 +256,10 @@
             <br></p>
         </div>
         <div class="span2">
-          <img src="assets/img/holiday.jpg" alt height="200px" width="200px">
+          <img src="assets/img/holiday.jpg" alt height="200px" width="200px" title="St.Chrtsioph/St.Anton">
         </div>
         <div class="span4">
-           <img src="assets/img/arlbergweather.jpg" alt height="300px" width="500px">
+           <img src="assets/img/arlbergweather.jpg" alt height="300px" width="500px" title="Alberg Weather">
         </div>
       </div>
     </div><!--end of container-->
@@ -254,7 +269,7 @@
           <div class="row">
           <div class="span4">
 
-          <table class="table"> <!-- start of 1st table-->
+          <table class="table" title="Holiday Prices"> <!-- start of 1st table-->
 
           <h4>Prices</h4> 
 
@@ -287,7 +302,7 @@
 
       <div class="span4">
         <h4>Ski/Board Hire</h4>
-        <table class="table"> <!-- ski/board hire table-->
+        <table class="table" title="Ski/Board hire prices"> <!-- ski/board hire table-->
 
           <tr>
           <th>Equipment</th>
@@ -338,9 +353,9 @@
 
        <!--Additional costs table-->
           <div class="span4">
-          <h3>Addition and Optional Costs</h3>
+          <h3>Additional and Optional Costs</h3>
           
-            <table class="table"><!--start of additional costs Table-->
+            <table class="table" title="Addtional and optional costs"><!--start of additional costs Table-->
               <h4>Lift Passes Prices</h4>
               <h6>Full Arlberg Area</h6>
 
@@ -390,7 +405,7 @@
 
       <footer>
             <div class="span1"> <!-- facebook link-->
-      <div class="brand">  <a href="https://www.facebook.com/groups/2256597544/"><img src="assets/img/fbbutton.jpg" class="brand"></a>
+      <div class="brand">  <a href="https://www.facebook.com/groups/2256597544/" title="Facebook Page"><img src="assets/img/fbbutton.jpg" class="brand"></a>
     </div>
 </div>
       <hr>

@@ -43,7 +43,7 @@
           <a class="brand" href="#" title="Oval Ski Club">Oval Ski Club</a> <!--site name-->
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="index.html" title="Home" accesskey="h"> Home</a></li>
+              <li><a href="index.html" title="Home" accesskey="h"> Home</a></li>
               <!--<li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>!-->
               <li class="dropdown"> <!-- first drop down box-->
@@ -51,7 +51,7 @@
                 <ul class="dropdown-menu">
                   <li><a href="AboutUs.html" title="About Us" accesskey="a">About Us</a></li>
                   <li><a href="ContactUs.html"title="Contac Us" accesskey="c">Contact Us</a></li>
-                  <li><a href="FAQ.html"title="Frequently Asked Questions" accesskey="f">FAQ's</a></li>
+                  <li class="active"><a href="FAQ.html"title="Frequently Asked Questions" accesskey="f">FAQ's</a></li>
                 </ul>
               </li>
                <li class="dropdown"> <!-- second drop down box-->
@@ -62,24 +62,30 @@
                   <li><a href="Sessions.html"title="Lessons" accesskey="s">Lessons</a></li>
                 </ul>
               </li>
-            </ul> <!-- drop down sign in-->
-                <ul class="nav pull-right">
+            </ul> 
+
+            <!-- drop down sign in-->
+          <ul class="nav pull-right">
           <li class="divider-vertical"></li>
           <li class="dropdown">
-            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Sign In <strong class="caret"></strong></a>
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" title="Sign In">Sign In <strong class="caret"></strong></a>
+
             <div class="dropdown-menu" style="padding: 15px; padding-bottom: 10px;">
+
               <!-- Login form here -->
-            </formaction="[YOUR ACTION]" method="post" accept-charset="UTF-8">
-            <input id="user_username" style="margin-bottom: 15px;" type="text" placeholder ="Username" name="user[username]" size="30" title="Username"/>
-            <input id="user_password" style="margin-bottom: 15px;" type="password" placeholder="Password" name="user[password]" size="30" title="Password"/>
-            </label>
-            <input class="btn btn-primary" style="clear: left; width: 100%; height: 32px; font-size: 13px;" type="submit" name="commit" value="Sign In" title="Sign In" />
+            <form action="index.html">
+              <!--Username-->
+            <input style="margin-bottom: 15px;" type="text" placeholder="Username" size="30" title="Userame"/> 
+            <!--Password-->
+            <input style="margin-bottom: 15px;" type="password" placeholder="Password" name="user[password]" size="30" title="Password"/>
+
+            <button <input class= "btn btn-primary"  name="commit" value="Sign In" title="Sign In">Sign In</button>
           </form>
-        </div>
-          </div><!--/.nav-collapse -->
-        </div>
+          </div>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
+  </div>
 
     <div class="container">
 
@@ -97,10 +103,10 @@
         <div class="accordion-group">
           <div class="accordion-heading">
             <div class="pagination-centered">
-          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportOne"><h2>Q. How can I learn to ski?</h2></a>
+          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportOne" title="How can I learn to ski?"><h2>Q. How can I learn to ski?</h2></a>
         </div>
           <div id="collapseSupportOne" class="accordion-body collapse" style="height: 0px;">
-            <div class="accordion-inner">A. All levels of skiers are welcome to join Oval Ski Club. If you are a complete beginner we run lessons in blocks of three weeks. For more information on when we are open and our prices please see our Sessions page! <p><a class="btn" href="Sessions.html"title ="More Details">More Details &raquo;</a></p>
+            <div class="accordion-inner" title="Answer">A. All levels of skiers are welcome to join Oval Ski Club. If you are a complete beginner we run lessons in blocks of three weeks. For more information on when we are open and our prices please see our Sessions page! <p><a class="btn" href="Sessions.html"title ="More Details">More Details &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -110,10 +116,10 @@
           <div class="accordion-group">
           <div class="accordion-heading">
           <div class="pagination-centered">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportTwo"><h2>Q. What do I need to wear?</h2></a>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportTwo" title="What do I need to wear?"><h2>Q. What do I need to wear?</h2></a>
         </div>
           <div id="collapseSupportTwo" class="accordion-body collapse" style="height: 0px;">
-            <div class="accordion-inner">A. When coming for a skiing lesson at Oval Ski Club ensure that gloves and long socks are worn. Please also ensure your arms are covered. <p><a class="btn" href="Sessions.html"title ="More Details">More Details &raquo;</a></p>
+            <div class="accordion-inner" title="Answer">A. When coming for a skiing lesson at Oval Ski Club ensure that gloves and long socks are worn. Please also ensure your arms are covered. <p><a class="btn" href="Sessions.html"title ="More Details">More Details &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -123,10 +129,10 @@
          <div class="accordion-group">
           <div class="accordion-heading">
             <div class="pagination-centered">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportThree"><h2>Q. Why do you need to know my weight?</h2></a>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportThree" title="Why do you need to know my weight?"><h2>Q. Why do you need to know my weight?</h2></a>
         </div>
           <div id="collapseSupportThree" class="accordion-body collapse" style="height: 0px;">
-            <div class="accordion-inner">A. We need to know your weight in order for the ski bindings to be set correctly. We do have scales at the club but it would save time if you have this information readily available.
+            <div class="accordion-inner" title="Answer">A. We need to know your weight in order for the ski bindings to be set correctly. We do have scales at the club but it would save time if you have this information readily available.
             </div>
           </div>
         </div>
@@ -136,10 +142,10 @@
           <div class="accordion-group">
            <div class="accordion-heading">
             <div class="pagination-centered">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportFour"><h2>Q. Whats happens after my first 3 lessons?</h2></a>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportFour" title="What happens after my first 3 lessons"><h2>Q. What happens after my first 3 lessons?</h2></a>
         </div>
           <div id="collapseSupportFour" class="accordion-body collapse" style="height: 0px;">
-            <div class="accordion-inner">A. You can continue to ski at the club for as long as you want. For instruction you will be moved to one of the intermediate groups.
+            <div class="accordion-inner" title="Answer">A. You can continue to ski at the club for as long as you want. For instruction you will be moved to one of the intermediate groups.
             </div>
           </div>
         </div>
@@ -149,10 +155,10 @@
            <div class="accordion-group">
             <div class="accordion-heading">
               <div class="pagination-centered">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportFive"><h2>Q. Where can I find you?</h2></a>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportFive" title="Where can I find you?"><h2>Q. Where can I find you?</h2></a>
         </div>
           <div id="collapseSupportFive" class="accordion-body collapse" style="height: 0px;">
-            <div class="accordion-inner">A. Information on where we can be found and our contact details can be found on our Contact Us page. 
+            <div class="accordion-inner" title="Answer">A. Information on where we can be found and our contact details can be found on our Contact Us page. 
               <p><a class="btn" href="ContactUs.html" title ="More Information">More Information &raquo;</a></p> 
             </div>
           </div>
@@ -160,14 +166,13 @@
       </div>
 
 
-          <div class="accordion-group">
-            <div class="accordion-heading">
-              <div class="pagination-centered">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportSix"><h2>Q. Where can I find you?</h2></a>
+         <div class="accordion-group">
+          <div class="accordion-heading">
+            <div class="pagination-centered">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportSix" title="Can I race for the ski club?"><h2>Q. Can I Race for the ski club?</h2></a>
         </div>
           <div id="collapseSupportSix" class="accordion-body collapse" style="height: 0px;">
-            <div class="accordion-inner">A. Information on where we can be found and our contact details can be found on our Contact Us page. 
-              <p><a class="btn" href="ContactUs.html" title ="More Information">More Information &raquo;</a></p> 
+            <div class="accordion-inner" title="Answer">A. Anyone can race for the club. Teams are oganised for the summer race league in stoke for all age categories. For more information see our Racing Team page. 
             </div>
           </div>
         </div>
@@ -177,23 +182,10 @@
          <div class="accordion-group">
           <div class="accordion-heading">
             <div class="pagination-centered">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportSeven"><h2>Q. Can I Race for the ski club?</h2></a>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportSeven" title="How can I get more involved at the club?"><h2>Q. How can I get more involved at the club?</h2></a>
         </div>
           <div id="collapseSupportSeven" class="accordion-body collapse" style="height: 0px;">
-            <div class="accordion-inner">A. Anyone can race for the club. Teams are oganised for the summer race league in stoke for all age categories. For more information see our Racing Team page. 
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-         <div class="accordion-group">
-          <div class="accordion-heading">
-            <div class="pagination-centered">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportEight"><h2>Q. How can I get more involved at the club?</h2></a>
-        </div>
-          <div id="collapseSupportEight" class="accordion-body collapse" style="height: 0px;">
-            <div class="accordion-inner">A. Anyone can get more involved at the club and we are always looking for extra volunteers to help out. We are always looking for extra volunteers to help out whether it be as skiing instructors or helping out behind the desk for social activities.
+            <div class="accordion-inner" title="Answer">A. Anyone can get more involved at the club and we are always looking for extra volunteers to help out. We are always looking for extra volunteers to help out whether it be as skiing instructors or helping out behind the desk for social activities.
             </div>
           </div>
         </div>
@@ -203,10 +195,10 @@
           <div class="accordion-group">
             <div class="accordion-heading">
               <div class="pagination-centered">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportNine"><h2>Q. Do you offer boarding lessons?</h2></a>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSupportEight" title="Do you offer boarding lessons?"><h2>Q. Do you offer boarding lessons?</h2></a>
         </div>
-          <div id="collapseSupportNine" class="accordion-body collapse" style="height: 0px;">
-            <div class="accordion-inner">A. Unfortunatly we are no longer able to provide snowboarding lessons as we no longer have any qualified instructors. The nearest slope providing snowboarding lessons is the Runcorn Ski Centre.
+          <div id="collapseSupportEight" class="accordion-body collapse" style="height: 0px;">
+            <div class="accordion-inner" title="Answer">A. Unfortunatly we are no longer able to provide snowboarding lessons as we no longer have any qualified instructors. The nearest slope providing snowboarding lessons is the Runcorn Ski Centre.
             </div>
           </div>
         </div>
@@ -215,7 +207,7 @@
 
 
       <div class="span1"> <!-- facebook link-->
-      <div class="brand">  <a href="https://www.facebook.com/groups/2256597544/"><img src="assets/img/fbbutton.jpg" class="brand"></a></div>
+      <div class="brand">  <a href="https://www.facebook.com/groups/2256597544/" title="Facebook Page"><img src="assets/img/fbbutton.jpg" class="brand"></a></div>
 </div>
       <hr>
 
